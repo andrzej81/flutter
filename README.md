@@ -4,4 +4,5 @@ A new Flutter project.
 
 # Author: Andrzej Iwaniuk
 
-![This is an image](f.JPG)
+![screenshot 1](f.JPG)
+![screenshot 2](ff.JPG)
