@@ -129,12 +129,22 @@ class SecondScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Second Screen'),
       ),
-      body: Center(
-        child: ElevatedButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          child: const Text('Go back!'),
+      body: Container(
+        color: Colors.indigo[200],
+        alignment: Alignment.center,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Center(
+              child: ElevatedButton(
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+                child: const Text('Go back!'),
+              ),
+            ),
+            Image.network('https://picsum.photos/250?image=9'),
+          ],
         ),
       ),
     );
