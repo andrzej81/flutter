@@ -143,7 +143,10 @@ class SecondScreen extends StatelessWidget {
                 child: const Text('Go back!'),
               ),
             ),
-            Image.network('https://picsum.photos/250?image=9'),
+            ClipRRect(
+              borderRadius: BorderRadius.circular(80.0),
+              child: Image.network('https://picsum.photos/250?image=9'),
+            ),
           ],
         ),
       ),
